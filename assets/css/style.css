@@ -113,6 +113,10 @@ MAIN
     margin-top: 10px;
 }
 
+.index-content a {
+    margin: 5px;
+}
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
@@ -188,9 +192,14 @@ PORTFOLIO PAGE
     background-color: #4aaea5;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     position: absolute;
     bottom: 50px;
+    left: 45px;
+}
+
+.caption p {
+    padding-bottom: 10px;
 }
 
 .image .caption p:hover {
@@ -224,6 +233,7 @@ FOOTER
     color: #fff;
     text-align: center;
     padding-top: 35px;
+    padding-bottom: 35px;
     height: 50px;
     margin-top: 70px;
   }
@@ -241,6 +251,7 @@ MEDIA QUERIES
         width: 60%;
         float: left;
         margin-left: 20px;
+        margin-bottom: 20px;
     }
     .lower {
         width: 33%;
