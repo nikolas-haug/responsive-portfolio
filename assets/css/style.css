@@ -35,8 +35,8 @@ header {
 
 .head-container {
     /* width: 960px; */
-    width: 100%;
-    max-width: 960px;
+    width: 960px;
+    max-width: 100%;
     margin: auto;
 } 
 
@@ -103,7 +103,6 @@ MAIN
 }
 
 .bottom-content {
-    /* width: 33%; */
     border: 1px solid #ddd;
     background-color: #fff;
     /* box shadow */  
@@ -134,7 +133,6 @@ INDEX PAGE
     float: left;
     padding-right: 20px;
     padding-top: 20px;
-    /* display: block; */
     max-width: 100%;
 }
 
@@ -144,6 +142,10 @@ INDEX PAGE
     line-height: 1.5;
     padding-top: 16px;
     font-weight: 100;
+}
+
+.em-footer {
+    font-style: italic;
 }
 
 /* ===========================================
@@ -247,6 +249,12 @@ MEDIA QUERIES
 ============================================ */
 
 @media screen and (max-width: 980px) {
+    .head-container {
+        /* width: 960px; */
+        width: 895px;
+        max-width: 100%;
+        margin: auto;
+    } 
     .hero {
         width: 60%;
         float: left;
@@ -267,6 +275,12 @@ MEDIA QUERIES
         width: 650px;
         max-width: 100%;
     }
+    .head-container {
+        /* width: 960px; */
+        width: 650px;
+        max-width: 100%;
+        margin: auto;
+    } 
     .hero {
         margin: 0 auto;
         width: 100%;
@@ -290,6 +304,7 @@ MEDIA QUERIES
         text-align: center;
         background-color: #fff;
         width: 33.33%;
+        margin-bottom: 10px;
     }
     .container {
         width: 520px;
